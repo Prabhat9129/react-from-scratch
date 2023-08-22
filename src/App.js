@@ -1,6 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
 import './appStyles.css'
+import ErrorBoundary from './components/ErrorBoundary';
+import Hero from './components/Hero';
+// import PureComp from './components/PureComp';
+// import ParentComp from './components/ParentComp';
+// import RefsDemo from './components/RefsDemo';
+// import FocuInput from './components/FocusInput'
+// import FRParentInput from './components/FRParentInput';
+// import Home from './components/Hero'
+// import TicTacToe from './components/TicTacToe';
+// import FragmentDemo from './components/FragmentDemo';
+// import Crud from './components/Crud';
+// import UseState from './components/UseState';
 // import Styles from './appStyles.module.css'
 // import NameList from './components/NameList';
 // import StyleSheet from './components/StyleSheet';
@@ -14,7 +26,8 @@ import './appStyles.css'
 // import Eventbind from './components/EventBind'
 // import ParentName from './components/ParentComponent'
 // import UserGreating from './components/UserGreating';
-import FormComponent from './components/form'
+// import FormComponent from './components/form'
+// import LifecycleA from './components/LifecycleA';
 
 function App() {
   return (
@@ -41,7 +54,37 @@ function App() {
       {/* <StyleSheet primary={true}></StyleSheet>
       <Inline></Inline> */}
 
-      <FormComponent></FormComponent>
+      {/* <FormComponent></FormComponent> */}
+
+      {/* <LifecycleA></LifecycleA> */}
+
+      {/* <FragmentDemo></FragmentDemo> */}
+      {/* <Crud></Crud> */}
+
+      {/* <UseState></UseState> */}
+      {/* <RefsDemo></RefsDemo> */}
+
+      {/* <FocuInput></FocuInput> */}
+
+      {/* <FRParentInput></FRParentInput> */}
+      <ErrorBoundary>
+      <Hero heroNames='prabhat'></Hero>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroNames='prabhatd'></Hero>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroNames='prabhatdi'></Hero>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroNames='joker'></Hero>
+      </ErrorBoundary>
+      
+
+      {/* <PureComp></PureComp> */}
+
+      {/* <ParentComp></ParentComp> */}
+      {/* <TicTacToe></TicTacToe> */}
 
       {/* <Eventbind></Eventbind> */}
         {/* <header className="App-header">
